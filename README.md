@@ -30,4 +30,15 @@ This allows you to easily build your desired **environment** from a map.
 
 <img width="2734" height="1121" alt="Screenshot from 2025-11-08 18-00-43" src="https://github.com/user-attachments/assets/9d94af8f-a9c9-497a-9a8a-e79692b631d1" />
 
+### Step 5: Save and View Your Environment
+
+After creating your environment, go to the **File** menu and choose **Save**.  
+Specify a **Model Name** and **Location** where your model will be saved.  
+
+Finally, click **Editor Building Exit** to close the editor and view your environment in Gazebo.
+
+<img width="2729" height="1396" alt="Screenshot from 2025-11-08 18-07-58" src="https://github.com/user-attachments/assets/c66e53e5-4074-4cea-be15-4df0580bd3bc" />
+
+
+
 
