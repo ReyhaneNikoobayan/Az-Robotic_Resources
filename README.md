@@ -39,6 +39,20 @@ Finally, click **Editor Building Exit** to close the editor and view your enviro
 
 <img width="2729" height="1396" alt="Screenshot from 2025-11-08 18-07-58" src="https://github.com/user-attachments/assets/c66e53e5-4074-4cea-be15-4df0580bd3bc" />
 
+### Step 6: Add Features
+
+### Step 6: Add Features
+
+You can add more details to your environment by selecting **Model Editor** from the **Edit** menu.  
+This allows you to insert and customize additional models, objects, and features in your simulation world.
+
+<img width="2714" height="1569" alt="Screenshot from 2025-11-09 16-59-21" src="https://github.com/user-attachments/assets/6bade62e-37b9-47d9-ab6b-26edbf78fcd8" />
+
+
+### Step 7: Add Simple Features and Models
+
+You can add simple features from **Simple Shapes**, or insert objects and models from the **Model Database** — such as a **café table**, **house model**, or other available assets.  
+These additions help you create a more realistic and detailed simulation environment.
 
 
 
