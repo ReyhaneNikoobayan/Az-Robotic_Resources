@@ -41,8 +41,6 @@ Finally, click **Editor Building Exit** to close the editor and view your enviro
 
 ### Step 6: Add Features
 
-### Step 6: Add Features
-
 You can add more details to your environment by selecting **Model Editor** from the **Edit** menu.  
 This allows you to insert and customize additional models, objects, and features in your simulation world.
 
