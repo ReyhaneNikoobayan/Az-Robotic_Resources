@@ -75,6 +75,7 @@ sudo apt install ros-humble-cartographer-ros
 
 sudo apt install ros-humble-navigation2
 sudo apt install ros-humble-nav2-bringup
+```
 
 ### Step 2 : Install TurtleBot3 Packages
 
@@ -97,6 +98,8 @@ colcon build --symlink-install
 echo 'source ~/turtlebot3_ws/install/setup.bash' >> ~/.bashrc
 source ~/.bashrc
 
+```
+
 ### Step 3 : Configure Environment Variables
 
 Add the following lines to your `.bashrc` file to configure your environment for **TurtleBot3** and **Gazebo**:
@@ -106,6 +109,7 @@ echo 'export ROS_DOMAIN_ID=30 # TURTLEBOT3' >> ~/.bashrc
 echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc
 echo 'source /opt/ros/humble/setup.bash' >> ~/.bashrc
 source ~/.bashrc
+```
 
 
 
