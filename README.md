@@ -147,7 +147,14 @@ export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo turtlebot3_house.launch.py
 ```
 
+### Step 6: Control Your Robot with the Keyboard
 
+You can move your TurtleBot3 robot in any of the Gazebo environments using your keyboard.  
+Run the following command in a terminal:
+
+```bash
+ros2 run turtlebot3_teleop teleop_keyboard
+```
 
 
 
