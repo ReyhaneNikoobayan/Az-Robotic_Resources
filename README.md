@@ -172,6 +172,13 @@ Open your `.world` file and add the following line at the very top:
 ```
 <img width="2716" height="1471" alt="Screenshot from 2025-11-12 17-16-48" src="https://github.com/user-attachments/assets/975797e5-90c8-4110-aff0-604b30062f81" />
 
+### Step 3: Create a Launch File
+
+Navigate to the **launch** folder inside the TurtleBot3 Gazebo package and make a copy of the existing launch file (‫‪turtlebot3_world.launch.py‬‬). Then, change the x_pose and y_pose values if necessary, and add a yaw parameter to your launch file to define the robot’s orientation.
+
+<img width="2671" height="1502" alt="Screenshot from 2025-11-12 17-23-17" src="https://github.com/user-attachments/assets/55ebed5f-8faf-4e51-bf3f-f03f84387367" />
+
+<img width="2671" height="1502" alt="Screenshot from 2025-11-12 17-23-36" src="https://github.com/user-attachments/assets/3369834c-b75f-4872-b363-356d11668724" />
 
 
 
