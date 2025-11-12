@@ -228,5 +228,16 @@ colcon build
 source install/setup.bash
 ```
 
+### Step 6: Open TurtleBot3 in Your Custom Environment
+
+Run the following commands in a separate terminal to launch your TurtleBot3 in your custom world:
+
+```bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_myworld.launch.py
+```
+<img width="2702" height="1516" alt="Screenshot from 2025-11-12 17-42-32" src="https://github.com/user-attachments/assets/4a9cfbd4-22ff-45f0-9e8b-6b34dc79cf1c" />
+
+
 
 
