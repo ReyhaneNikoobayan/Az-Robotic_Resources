@@ -180,7 +180,37 @@ Navigate to the **launch** folder inside the TurtleBot3 Gazebo package and make 
 
 <img width="2671" height="1502" alt="Screenshot from 2025-11-12 17-23-36" src="https://github.com/user-attachments/assets/3369834c-b75f-4872-b363-356d11668724" />
 
+### Step 4: Edit the Spawn File
 
+Open the `spawn_turtlebot3.launch.py` file located in the **launch** folder of the TurtleBot3 Gazebo package.
+
+Add the following lines in the appropriate place within the file to include the **yaw** parameter (for controlling the robot’s orientation):
+
+```python
+declare_yaw_cmd = DeclareLaunchArgument(
+    'yaw', default_value='3.14',
+    description='Yaw orientation (in radians) of the robot'
+)
+
+start_gazebo_ros_spawner_cmd = Node(
+    package='gazebo_ros',
+    executable='spawn_entity.py',
+    arguments=[
+        '-entity', TURTLEBOT3_MODEL,
+        '-file', urdf_path,
+        '-x', x_pose,
+        '-y', y_pose,
+        '-z', '0.01',
+        '-Y', yaw
+    ],
+    output='screen',
+)
+
+ld.add_action(declare_yaw_cmd)
+
+```
+
+<img width="2702" height="1516" alt="Screenshot from 2025-11-12 17-29-19" src="https://github.com/user-attachments/assets/e93f46f2-6d45-413d-a6e1-5dd97e72f126" />
 
 
 
