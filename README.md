@@ -239,5 +239,41 @@ ros2 launch turtlebot3_gazebo turtlebot3_myworld.launch.py
 <img width="2702" height="1516" alt="Screenshot from 2025-11-12 17-42-32" src="https://github.com/user-attachments/assets/4a9cfbd4-22ff-45f0-9e8b-6b34dc79cf1c" />
 
 
+## Localization and Mapping of the Environment
+
+### Step 1: Launch TurtleBot3 in Your Custom Environment
+
+```bash
+export TURTLEBOT3_MODEL=burger
+ros2 launch turtlebot3_gazebo turtlebot3_myworld.launch.py
+```
+### Step 2: Run the Cartographer Package
+
+In a **separate terminal**, run the following command:
+
+```bash
+ros2 launch turtlebot3_cartographer cartographer.launch.py use_sim_time:=true
+```
+### Step 3: Create the Map
+
+Move your robot throughout the entire environment.  
+Using LiDAR data, the robot will measure distances and gradually build the map.
+
+To move the robot with your keyboard, run:
+
+```bash
+ros2 run turtlebot3_teleop teleop_keyboard
+```
+
+<img width="2723" height="1518" alt="Screenshot from 2025-11-17 15-52-07" src="https://github.com/user-attachments/assets/ca49d0ec-a3f3-4975-8cf9-42b59986b253" />
+
+### Step 4: Save the Map
+
+Open a terminal in the folder where you want to save your map, then run:
+
+```bash
+ros2 run nav2_map_server map_saver_cli -f my_map
+```
+
 
 
