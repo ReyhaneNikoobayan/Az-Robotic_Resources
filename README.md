@@ -275,5 +275,24 @@ Open a terminal in the folder where you want to save your map, then run:
 ros2 run nav2_map_server map_saver_cli -f my_map
 ```
 
+## Automatic Robot Navigation in the Environment
 
+### Step 1: Edit `burger.yaml`
+
+Open the `burger.yaml` file to change the robot motion model.  
+Run the following command:
+
+```bash
+gedit /opt/ros/humble/share/turtlebot3_navigation2/param/burger.yaml
+```
+
+Then, replace:
+
+```yaml
+robot_model_type: "differential"
+```
+with
+```yaml
+robot_model_type: "nav2_amcl::DifferentialMotionModel"
+```
 
