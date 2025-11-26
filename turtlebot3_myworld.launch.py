@@ -37,7 +37,7 @@ def generate_launch_description():
     world = os.path.join(
         get_package_share_directory('turtlebot3_gazebo'),
         'worlds',
-        'myworld.world'
+        'mymodel.world'
     )
     
     gzserver_cmd = IncludeLaunchDescription(
