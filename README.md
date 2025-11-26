@@ -55,7 +55,8 @@ These additions help you create a more realistic and detailed simulation environ
 
 > 💡 **Hint:** You can change the **density**, **size**, **color** and other features of simple shapes by clicking on **Open Link Inspector**.
 
-<img width="2704" height="1500" alt="Screenshot from 2025-11-09 17-07-34" src="https://github.com/user-attachments/assets/5ed82239-9558-4f1c-9485-9bf0a0bb4746" />
+<img width="2761" height="1527" alt="Screenshot from 2025-11-26 16-27-27" src="https://github.com/user-attachments/assets/dd451ebb-dd8c-4ccc-a2ab-47524b90b51d" />
+
 
 ### Step 8: Save and View Your Model
 
