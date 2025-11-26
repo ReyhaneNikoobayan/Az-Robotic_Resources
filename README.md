@@ -244,7 +244,8 @@ Run the following commands in a separate terminal to launch your TurtleBot3 in y
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo turtlebot3_myworld.launch.py
 ```
-<img width="2702" height="1516" alt="Screenshot from 2025-11-12 17-42-32" src="https://github.com/user-attachments/assets/4a9cfbd4-22ff-45f0-9e8b-6b34dc79cf1c" />
+<img width="2727" height="1515" alt="Screenshot from 2025-11-26 16-55-43" src="https://github.com/user-attachments/assets/a8512918-0c7f-40ef-aa9b-5ae25c2eb905" />
+
 
 
 ## Localization and Mapping of the Environment
