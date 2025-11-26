@@ -343,4 +343,14 @@ You can also determine the robot’s initial position using **2D Pose Estimate**
 <img width="2727" height="1515" alt="Screenshot from 2025-11-26 17-41-26" src="https://github.com/user-attachments/assets/f84bc4ec-df79-4ead-845b-00e5a5ec18f5" />
 
 
-‬‬‬‬‬‬‬‬‬‬
+### Step 5: Set the Goal Position
+
+You can define the robot’s destination in **RViz2** using the **Nav2 Goal** tool.  
+Alternatively, you can run the following script to publish a goal position:
+
+```bash
+python3 Goal_Pose.py
+
+‬‬‬‬‬‬‬‬‬‬<img width="2727" height="1515" alt="Screenshot from 2025-11-26 18-29-09" src="https://github.com/user-attachments/assets/4fc3adad-891b-4556-be2c-2ab4d6f3b08e" />
+
+
