@@ -176,7 +176,8 @@ Open your `.world` file and add the following line at the very top:
 ```xml
 <?xml version="1.0"?>
 ```
-<img width="2716" height="1471" alt="Screenshot from 2025-11-12 17-16-48" src="https://github.com/user-attachments/assets/975797e5-90c8-4110-aff0-604b30062f81" />
+<img width="2727" height="1515" alt="Screenshot from 2025-11-26 16-53-21" src="https://github.com/user-attachments/assets/bfda2363-33ba-41ac-b425-c4cc54478935" />
+
 
 ### Step 3: Create a Launch File
 
