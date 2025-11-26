@@ -273,8 +273,8 @@ To move the robot with your keyboard, run:
 ```bash
 ros2 run turtlebot3_teleop teleop_keyboard
 ```
+<img width="2727" height="1515" alt="Screenshot from 2025-11-26 17-10-32" src="https://github.com/user-attachments/assets/e3f630eb-fa96-4a23-adf7-4c0bc61f01dc" />
 
-<img width="2723" height="1518" alt="Screenshot from 2025-11-17 15-52-07" src="https://github.com/user-attachments/assets/ca49d0ec-a3f3-4975-8cf9-42b59986b253" />
 
 ### Step 4: Save the Map
 
