@@ -326,5 +326,15 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py \
 ```
 <img width="2727" height="1515" alt="Screenshot from 2025-11-26 17-34-55" src="https://github.com/user-attachments/assets/4944306a-cea7-4cce-afb8-fe1898bb1b05" />
 
+### Step 4: Initialize TurtleBot3 Pose
+
+Set the initial position of the TurtleBot3 inside the `Initial_Pose.py` script.  
+After updating the coordinates, run the script in the same folder using:
+
+```bash
+python3 Initial_Pose.py
+```
+
+<img width="2727" height="1515" alt="Screenshot from 2025-11-26 17-39-26" src="https://github.com/user-attachments/assets/fd9a079d-cdb5-4535-b11b-903db3339a24" />
 
 ‬‬‬‬‬‬‬‬‬‬
